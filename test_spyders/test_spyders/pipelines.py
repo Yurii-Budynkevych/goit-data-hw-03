@@ -13,7 +13,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 
-# Get passwordss
+# Get passwords
 load_dotenv()
 db_password = os.getenv("DB_PASSWORD")
 uri = f"mongodb+srv://AI:{db_password}@cluster0.gtl6qtn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
